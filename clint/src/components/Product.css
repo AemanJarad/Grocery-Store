@@ -1,0 +1,32 @@
+/* src/components/Product.css */
+
+.product {
+    position: relative;
+}
+
+.defaultImg {
+    display: block;
+}
+
+.hoverImg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product :hover .defaultImg {
+    display: none;
+}
+
+.product:hover .hoverImg {
+    display: block;
+}
+
+*{
+    text-decoration: none;
+}
+
+li{
+    margin-right: 10px;
+}
